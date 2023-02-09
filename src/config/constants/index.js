@@ -5,7 +5,7 @@ module.exports.SITE_CONFIG = {
 	siteTitleShort: 'JS Blog', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
 	siteTitleAlt: 'John Serra\'s Personal Blog', // Alternative site title for SEO.
 	siteUrl: 'https://johnserra.com', // Domain of your website without pathPrefix.
-	siteDescription: 'A GatsbyJS Blog Template for blogging purpose.', // Website description used for RSS feeds/meta description tag.
+	siteDescription: 'La Brutta Copia di John Serra.', // Website description used for RSS feeds/meta description tag.
 	postsPerPage: 8,
 	// Use for footer
 	footerNav: [

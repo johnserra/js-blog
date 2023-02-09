@@ -103,7 +103,7 @@ module.exports = {
 				background_color: backgroundColor,
 				theme_color: themeColor,
 				display: `minimal-ui`,
-				icon: `${__dirname}/src/assets/images/icon.png`,
+				icon: `${__dirname}/src/assets/images/JohnSerra.png`,
 			},
 		},
 		{
