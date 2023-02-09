@@ -16,13 +16,13 @@ const IndexPage = ({ data, location }) => {
 			<Seo title={siteTitle} />
 			<Headline
 				text={{
-					line1: "Hey, I'm a Gatsby Starter",
-					line2: 'Gatsby Developer',
+					line1: "Hi, I'm John",
+					line2: 'In Pursuit of Growth',
 				}}
 			/>
 			<BlogInfo
-				header="Welcome to my blog."
-				description="A Gatsby Starter Project to easily get started with Blog theme. Written by Andreas Eracleous who lives in Cyprus building useful Gatsby things."
+				header="Welcome to my brutta copia."
+				description="A Data Wrangling, Web Developing, Tinkerer. I have been playing with data since the late nineties, mostly in business environments. Whether it is streamlining production processes while taking into account the relative constraints or increasing the performances of ESL teachers and students, I use data. Do you need to use your data to improve? How about a web presence to let people know you exist? 🙂"
 			/>
 			<SocialMedia />
 			<PostListLayout data={nodes} />

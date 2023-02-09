@@ -8,7 +8,7 @@ const SocialMedia = () => {
 		<div className="flex justify-end space-x-4 mt-3 ml-3">
 			<p className="text-md my-auto">Follow me on:</p>
 			<a
-				href="https://twitter.com/AndreasFrontDev"
+				href="https://twitter.com/JohnSerra"
 				aria-label="Twitter"
 				target="_blank"
 				rel="noreferrer"
@@ -16,7 +16,7 @@ const SocialMedia = () => {
 				<TwitterIcon className="text-slate-400 hover:text-sky-400 text-3xl h-8" />
 			</a>
 			<a
-				href="https://cy.linkedin.com/in/andreaseracleous"
+				href="https://linkedin.com/in/johnserra"
 				aria-label="Linkedin"
 				target="_blank"
 				rel="noreferrer"
@@ -24,7 +24,7 @@ const SocialMedia = () => {
 				<LinkedinIcon className="text-slate-400 hover:text-sky-700 text-3xl h-8" />
 			</a>
 			<a
-				href="https://github.com/AndreasEracleous"
+				href="https://github.com/johnserra"
 				aria-label="Github"
 				target="_blank"
 				rel="noreferrer"

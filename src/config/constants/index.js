@@ -1,27 +1,28 @@
 module.exports.SITE_CONFIG = {
 	// Site info
-	siteName: 'devBlog',
-	siteTitle: `Hey, I'm a Gatsby Starter`, // Site title.
-	siteTitleShort: 'GP Blog', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-	siteTitleAlt: 'Gatsby Personal Blog Template', // Alternative site title for SEO.
-	siteUrl: 'https://www.yourdomain.tld', // Domain of your website without pathPrefix.
+	siteName: 'John Serra',
+	siteTitle: `Hey, I'm John Serra`, // Site title.
+	siteTitleShort: 'JS Blog', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+	siteTitleAlt: 'John Serra\'s Personal Blog', // Alternative site title for SEO.
+	siteUrl: 'https://johnserra.com', // Domain of your website without pathPrefix.
 	siteDescription: 'A GatsbyJS Blog Template for blogging purpose.', // Website description used for RSS feeds/meta description tag.
 	postsPerPage: 8,
 	// Use for footer
 	footerNav: [
 		{ label: 'Sitemap', url: '/sitemap/sitemap-index.xml' },
 		{ label: 'RSS', url: '/rss.xml' },
-		{ label: 'Twitter', url: 'https://twitter.com/AndreasFrontDev' },
-		{ label: 'LinkedIn', url: 'https://cy.linkedin.com/in/andreaseracleous' },
-		{ label: 'GitHub', url: 'https://github.com/AndreasEracleous' },
+		{ label: 'Telegram', url: 'https://t.me/johnserra'},
+		{ label: 'Twitter', url: 'https://twitter.com/JohnSerra' },
+		{ label: 'LinkedIn', url: 'https://linkedin.com/in/johnserra' },
+		{ label: 'GitHub', url: 'https://github.com/johnserra' },
 	],
 	social: {
-		twitter: `AndreasFrontDev`, // Creates meta tags for Twitter to look your tweet richer.
+		twitter: `JohnSerra`, // Creates meta tags for Twitter to look your tweet richer.
 	},
-	authorName: `@AndreasEracleous`, // Username to display in the author segment
+	authorName: `@JohnSerra`, // Username to display in the author segment
 	copyright:
-		'| All Rights Reserved | Website designed & developed by Andreas Eracleous',
+		'| All Rights Reserved | All thoughts and opnions are solely mine.',
 	// Use for manifest
-	themeColor: '#1E293B', // Used for setting manifest and progress theme colors.
+	themeColor: '#0085c0', // Used for setting manifest and progress theme colors #1E293B.
 	backgroundColor: '#FFF', // Used for setting manifest background color.
 }
