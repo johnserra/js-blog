@@ -8,26 +8,26 @@ import SocialMedia from '../components/SocialMedia'
 import { SITE_CONFIG } from '../config/constants'
 
 const IndexPage = ({ data, location }) => {
-	const { nodes } = data.allMdx
-	const siteTitle = SITE_CONFIG['siteTitle']
+  const { nodes } = data.allMdx
+  const siteTitle = SITE_CONFIG['siteTitle']
 
-	return (
-		<>
-			<Seo title={siteTitle} />
-			<Headline
-				text={{
-					line1: "Hi, I'm John",
-					line2: 'In Pursuit of Growth',
-				}}
-			/>
-			<BlogInfo
-				header="Benvenuti alla mia brutta copia."
-				description="A Data Wrangling, Web Developing, Tinkerer. I have been playing with data since the late nineties, mostly in business environments. Whether it is streamlining production processes while taking into account the relative constraints or increasing the performances of ESL teachers and students, I use data. Do you need to use your data to improve? How about a web presence to let people know you exist? 🙂"
-			/>
-			<SocialMedia />
-			<PostListLayout data={nodes} />
-		</>
-	)
+  return (
+    <>
+      <Seo title={siteTitle} />
+      <Headline
+        text={{
+          line1: "Hi, I'm John",
+          line2: 'In Pursuit of Growth',
+        }}
+      />
+      <BlogInfo
+        header="Benvenuti alla mia brutta copia."
+        description="I'm a Data Wrangling, Web Developing, Tinkerer. I have been playing with data since the late nineties, mostly in business environments. Whether it is streamlining production processes while taking into account the relative constraints or increasing the performances of ESL teachers and students, I use data. Do you need to use your data to improve? How about a web presence to let people know you exist? 🙂"
+      />
+      <SocialMedia />
+      <PostListLayout data={nodes} />
+    </>
+  )
 }
 
 export default IndexPage

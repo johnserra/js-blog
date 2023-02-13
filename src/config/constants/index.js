@@ -21,7 +21,7 @@ module.exports.SITE_CONFIG = {
 	},
 	authorName: `@JohnSerra`, // Username to display in the author segment
 	copyright:
-		'| All Rights Reserved | All thoughts and opnions are solely mine.',
+		' | All Rights Reserved | All thoughts and opinions are solely mine.',
 	// Use for manifest
 	themeColor: '#0085c0', // Used for setting manifest and progress theme colors #1E293B.
 	backgroundColor: '#FFF', // Used for setting manifest background color.
